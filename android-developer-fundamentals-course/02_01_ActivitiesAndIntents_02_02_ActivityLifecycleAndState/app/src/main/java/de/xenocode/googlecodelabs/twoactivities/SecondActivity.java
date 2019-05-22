@@ -18,7 +18,6 @@ public class SecondActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
 
-
         Log.d(LOG_TAG, "-------");
         Log.d(LOG_TAG, "onCreate");
 
@@ -28,9 +27,7 @@ public class SecondActivity extends AppCompatActivity {
         TextView textView = findViewById(R.id.text_message);
         textView.setText(message);
         Log.d(LOG_TAG,"onCreate");
-
     }
-
 
     @Override
     protected void onStart() {
